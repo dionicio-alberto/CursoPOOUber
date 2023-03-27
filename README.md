@@ -10,5 +10,6 @@ En este curso de programara bajo el paradigma orientado a objetos en 4 lenguajes
 -----
 
 Created by Dionicio
+Modificación realizada desde la terminal de visual studio code
 
 -----
