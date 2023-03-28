@@ -1,13 +1,15 @@
 <?php
-require_once('Car.php');
-class UberVan extends Car {
+require_once('car.php');
+class UberBlack extends Car {
     public $typeCarAccepted;
-    public $seatsmaterial;
+    public $seatsMaterial;
 
-    public function __construct($license, $driver, $typeCarAccepted, $seatsmaterial) {
-        parent::__construct($license, $driver);
+    public function __construct($license, $driver, $typeCarAccepted, $seatsMaterial){
+        parent::__construct($license,$driver);
         $this->typeCarAccepted = $typeCarAccepted;
-        $this->seatsmaterial = $seatsmaterial;
+        $this->seatsMaterial = $seatsMaterial;
     }
+
+
 }
 ?>
